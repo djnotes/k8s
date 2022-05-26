@@ -1,0 +1,7 @@
+secretGenerator:
+  - name: mariadb-pass
+    literals:
+    - password=@MyPass1000
+resources:
+  - mariadb-deployment.yaml
+  - wordpress-deployment.yaml
